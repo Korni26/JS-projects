@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-size: 5vh;
+            color: whitesmoke;
+            background-color: #000;
+            overflow-x: hidden;
+        }
+
+        .btns{
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .time {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100vw;
+        }
+
+        button {
+            font-size: 5vh;
+            margin: 1vh;
+            min-width: 10vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="btns">
+        <button class="main">Start</button>
+        <button class="reset">Reset</button>
+    </div>
+    <div class="time">
+        <p>Timer:</p>
+        <div>---</div>
+    </div>
+
+
+
+
+    <script src="timer.js"></script> 
+</body>
+
+</html>
