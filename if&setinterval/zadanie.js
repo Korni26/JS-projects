@@ -11,14 +11,14 @@
 // rozwiazanie ale srednio dziala
 const clock = () => {
     let seconds = 0;
-    document.body.textContent = 0 = " sekund"
+    h1.textContent = 0 = " sekund"
     
     const timer = () => {
         seconds++
-        document.body.textContent = seconds = " sekund"
+        body.textContent = seconds = " sekund"
     }
 
     return timer
 }
 const start = clock()
-setInterval(start, 1000)
+setInterval(start, 1000);
